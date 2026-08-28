@@ -1,5 +1,10 @@
 package hospital;
 
+/**
+ * EmergencyQueue implements a FIFO (First-In-First-Out) queue
+ * to manage patients waiting for emergency treatment.
+ */
+
 public class EmergencyQueue {
 
     // Node class for the queue (using linked list internally)

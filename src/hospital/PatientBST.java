@@ -1,5 +1,12 @@
 package hospital;
 
+/**
+ * PatientBST implements a Binary Search Tree to store and manage
+ * patient records, keyed by Patient ID.
+ * Supports insertion, search, deletion, and in-order traversal
+ * to display patients in ascending order of Patient ID.
+ */
+
 public class PatientBST {
 
     // Inner class for BST Node

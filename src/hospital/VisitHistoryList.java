@@ -1,5 +1,10 @@
 package hospital;
 
+/**
+ * VisitHistoryList implements a Singly Linked List to store
+ * a patient's history of previous hospital visits.
+ */
+
 public class VisitHistoryList {
 
     // Node class for singly linked list

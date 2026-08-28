@@ -1,5 +1,10 @@
 package hospital;
 
+/**
+ * TreatmentStack implements a LIFO (Last-In-First-Out) stack
+ * to store completed treatment records, most recent first.
+ */
+
 public class TreatmentStack {
 
     // Node class for the stack (using linked list internally)
