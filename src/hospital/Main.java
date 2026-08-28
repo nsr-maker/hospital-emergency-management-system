@@ -69,8 +69,14 @@ public class Main {
         scanner.nextLine();
         System.out.print("Enter Name: ");
         String name = scanner.nextLine();
+
         int age = getIntInput("Enter Age: ");
+        while (age <= 0 || age > 150) {
+            System.out.println("Invalid age. Please enter a value between 1 and 150.");
+            age = getIntInput("Enter Age: ");
+        }
         scanner.nextLine();
+
         System.out.print("Enter Contact Number: ");
         String contact = scanner.nextLine();
         System.out.print("Enter Medical Condition: ");
